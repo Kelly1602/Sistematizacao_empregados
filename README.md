@@ -34,3 +34,24 @@ Configurar o Ambiente
 Instale o JDK 8 ou superior. Você pode baixar o JDK do site oficial da Oracle.
 Instale o Eclipse IDE. Você pode baixar o Eclipse do site oficial do Eclipse.
 
+Clonar o Repositório
+
+Abra o terminal (ou a linha de comando) e navegue até o diretório onde deseja clonar o repositório.
+
+Execute o seguinte comando para clonar o repositório:
+git clone https://github.com/seu-usuario/SistemaDeEmpregados.git
+Navegue até o diretório do projeto clonado:
+cd SistemaDeEmpregados
+Importar o Projeto no Eclipse
+
+Abra o Eclipse.
+Vá para File > Import.
+Selecione Existing Projects into Workspace e clique em Next.
+Clique em Browse e selecione o diretório onde o projeto foi clonado (SistemaDeEmpregados).
+Clique em Finish.
+Executar o Programa
+
+No Eclipse, expanda o pacote br.com.mgs no Package Explorer.
+Clique com o botão direito na classe Main.
+Selecione Run As > Java Application.
+O programa solicitará a entrada das informações do empregado pelo terminal e, em seguida, exibirá os dados inseridos.
