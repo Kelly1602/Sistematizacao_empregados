@@ -1,6 +1,10 @@
 # Sistematizacao_empregados
-Este projeto é um simples sistema de gerenciamento de informações de empregados utilizando Java. Ele coleta dados dos empregados através do terminal e exibe as informações inseridas.
+Este projeto é um simples sistema de gerenciamento de informações de empregados utilizando Java. Ele coleta dados dos empregados através do terminal e exibe as informações inseridas. Este projeto foi desenvolvido para auxiliar a empresa MGS (Max Global Sports) a gerenciar informações importantes dos seus funcionários, incluindo alergias e problemas médicos, para situações de emergência.
 
+Funcionalidades
+Coleta de informações de identificação dos empregados.
+Coleta de informações médicas e de contato.
+Exibição das informações dos empregados inseridas no sistema.
 Estrutura do Projeto
 O projeto contém duas classes principais:
 
@@ -14,7 +18,19 @@ nome (String): Nome do empregado.
 idade (int): Idade do empregado.
 alergias (String): Alergias do empregado, separadas por vírgulas.
 problemasMedicos (String): Problemas médicos do empregado, separados por vírgulas.
-telefoneContato (String): Telefone de contato do empregado.
-emailContato (String): Email de contato do empregado.
+telefone (String): Telefone de contato do empregado.
+email (String): Email de contato do empregado.
 Classe Main
 A classe Main solicita a entrada dos dados do empregado via terminal, cria um objeto Empregado com esses dados e exibe as informações do empregado.
+
+Requisitos
+Java Development Kit (JDK) 8 ou superior
+Eclipse IDE
+
+Como Executar o Projeto
+Passo a Passo
+Configurar o Ambiente
+
+Instale o JDK 8 ou superior. Você pode baixar o JDK do site oficial da Oracle.
+Instale o Eclipse IDE. Você pode baixar o Eclipse do site oficial do Eclipse.
+
